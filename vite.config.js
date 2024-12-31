@@ -4,10 +4,12 @@ import { defineConfig } from 'vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  publicDir: 'public',
-   base: './',
-   build: {
+  server: {
+    port: 3000
+  },
+  build: {
     outDir: 'dist',
-    assetsDir: 'assets',
+    chunkSizeWarningLimit: 1600,
+  
   }
 })
