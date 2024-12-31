@@ -8,14 +8,14 @@ const Portfolio = () => {
      title: "Uni-sHub",
      description: "Food delivery price comparison platform",
      tech: ["React", "Node.js", "MongoDB"],
-     image: "/public/images/sc2.png", 
+     image: "/images/sc2.png", 
      link: "https://uni-shub.in"
    },
    {
      title: "Travel Portal",
      description: "Interactive travel booking system",
      tech: ["React", "JavaScript", "CSS3"],
-     image: "/public/images/sc1.png",
+     image: "/images/sc1.png",
      link: "#"
    }
  ];
