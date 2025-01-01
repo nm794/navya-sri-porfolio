@@ -11,5 +11,6 @@ export default defineConfig({
     outDir: 'dist',
     chunkSizeWarningLimit: 1600,
   
-  }
+  },
+   base: './'
 })
