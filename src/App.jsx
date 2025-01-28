@@ -131,7 +131,7 @@ const Portfolio = () => {
        <section id="contact" className="contact-section">
          <h2>Let's Connect</h2>
          <div className="contact-links">
-           <a href="mailto:navajeevan3598@gmail.com" className="contact-button">Email</a>
+           <a href="mailto:navya@workwebmail.com" className="contact-button">Email</a>
            <a href="https://linkedin.com/in/navya-sri-morthala" className="contact-button">LinkedIn</a>
            <a href="https://github.com/nm794" className="contact-button">GitHub</a>
          </div>
