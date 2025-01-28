@@ -22,22 +22,22 @@ const Portfolio = () => {
 
  const experience = [
    {
-     role: "Frontend Developer",
-     company: "Rebecca Everlene Trust Company",
-     period: "Oct 2024 - Present",
-     description: "Built browser applications using React and TypeScript, reduced memory footprint by 40%"
+     role: "Software Engineer",
+     company: "Capegemini",
+     period: "Jan,2024-Present",
+     description: "Developed a 3D ineterative social platform using React and Three.js to create immersive environments, enabling users to build customizable virtual avatars and enagage in dynamic interactions within the metaverse."
    },
    {
-     role: "Founder & Technical Lead",
-     company: "Uni-sHub", 
-     period: "Jun 2024 - Present",
-     description: "Built full-stack platform using React.js and Node.js, improved user engagement by 35%"
+     role: "Software Engineer",
+     company: "Genpact", 
+     period: "Dec,2020-Aug,2022",
+     description: "Developed an Event Management System with Flask (frontend and backend) and Bootstrap for responsive UI; implemented event creation, category tagging, user registration, and ticket generation using SQLite for efficient database management."
    },
    {
-     role: "Business Analyst",
-     company: "KNR Constructions",
-     period: "Apr 2021 - May 2022", 
-     description: "Created interactive dashboards and optimized web applications"
+     role: "Software Engineer",
+     company: "Newgen technologies",
+     period: "Feb,2020 - Nov,2020", 
+     description: "Developed scalable and responsive front-end solutions using React, Redux, and TypeScript, achieving a 20% improvement in deliverable quality through seamless integration testing protocols."
    }
  ];
 
@@ -45,7 +45,9 @@ const Portfolio = () => {
    frontend: ["React", "TypeScript", "JavaScript", "HTML/CSS"],
    backend: ["Node.js", "Java", "Python", "C"],
    data: ["Power BI", "SQL", "Data Analysis", "Excel"],
-   tools: ["Git", "AWS", "Docker", "MongoDB"]
+   tools: ["Git", "AWS", "Docker", "MongoDB"],
+   testing:["Jest", "Cypress", "Selenium", "pytest", "LoadRunner"],
+   Blockchain:["Blockchain APIs", "NFT integration"]
  };
 
  return (
